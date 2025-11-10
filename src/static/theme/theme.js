@@ -1,11 +1,11 @@
 export const theme = {
   colors: {
-    primary: "#1B4332",
-    secondary: "#84a98c",
-    body: "#2f3e46",
-    over: "#52b788",
-    background1: "#cad2c5",
-    background2: "#cad2c5",
-    iconsBackground: "#D7FFF1",
+    primary: "#C5A100", // Dorado principal elegante
+    secondary: "#FFD700", // Dorado brillante para acentos o elementos activos
+    body: "#000000", // Texto o fondo principal negro
+    over: "#FFFFFF", // Texto o elementos sobre fondos oscuros (blanco)
+    background1: "#FFFFFF", // Fondo principal blanco
+    background2: "#F5F5F5", // Fondo secundario ligeramente grisáceo
+    iconsBackground: "#FFF8E1", // Fondo de iconos con tono dorado suave
   },
 };

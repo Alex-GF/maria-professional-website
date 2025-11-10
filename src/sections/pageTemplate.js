@@ -21,20 +21,12 @@ const PageTemplate = (props) => {
           className="absolute bottom-0 left-5 hidden h-72 w-10 flex-col items-center justify-between xl:flex 2xl:left-10"
         >
           <a
-            href="https://github.com/Alex-GF"
+            href="https://www.linkedin.com/in/marespmor/"
             target="_blank"
             rel="noreferrer"
             className="mb-5 h-8 w-8 cursor-pointer"
           >
-            <FaGithub className=" h-full w-full fill-body hover:fill-over" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/alejandro-garcia-fernandez-07769b293/"
-            target="_blank"
-            rel="noreferrer"
-            className="mb-5 h-8 w-8 cursor-pointer"
-          >
-            <FaLinkedin className="h-full w-full fill-body hover:fill-over" />
+            <FaLinkedin className="h-full w-full fill-body hover:fill-primary" />
           </a>
           <div className="h-[60%] w-px grow bg-body"></div>
         </motion.div>
@@ -48,10 +40,10 @@ const PageTemplate = (props) => {
           className="absolute bottom-0 right-5 hidden h-72 w-10 flex-col items-center justify-between xl:flex 2xl:right-10"
         >
           <a
-            className="rotate-90 cursor-pointer font-mono text-sm text-body hover:text-over"
-            href="mailto:yalejandro9@gmail.com"
+            className="rotate-90 cursor-pointer font-mono text-sm text-body hover:text-primary"
+            href="mailto:espinarmora@gmail.com"
           >
-            yalejandro9@gmail.com
+            espinarmora@gmail.com
           </a>
           <div className="h-[60%] w-px bg-body"></div>
         </motion.div>

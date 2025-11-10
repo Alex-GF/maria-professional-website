@@ -3,7 +3,7 @@ import { Dialog } from "@headlessui/react";
 import { Link } from "react-router-dom";
 import { HiBars3BottomRight, HiXMark } from "react-icons/hi2";
 import CV from "../static/pdf/CV.pdf";
-import { ReactComponent as Logo } from "../static/icons/logo.svg";
+import logo from "../static/icons/logo.webp";
 import { motion } from "framer-motion";
 
 const Header = () => {
@@ -30,7 +30,11 @@ const Header = () => {
         >
           <Link to="/" className="-m-1.5 p-1.5">
             <span className="sr-only">María Espinar Mora</span>
-            <Logo className="h-10 w-10 stroke-primary stroke-2 lg:h-20 lg:w-20" />
+            <img
+              src={logo}
+              alt="María Espinar Mora logo"
+              className="h-10 w-10 lg:h-20 lg:w-20"
+            />
           </Link>
         </motion.div>
         {!mobileMenuOpen && (
@@ -73,7 +77,7 @@ const Header = () => {
               transition: { delay: 0.1, duration: 0.5 },
             }}
           >
-            <Link to="/" className="text-sm font-semibold leading-6 text-body">
+            <Link to="/" className="text-sm font-semibold leading-6 text-body hover:text-primary">
               Home
             </Link>
           </motion.div>
@@ -91,7 +95,7 @@ const Header = () => {
           >
             <Link
               to="/career"
-              className="text-sm font-semibold leading-6 text-body"
+              className="text-sm font-semibold leading-6 text-body hover:text-primary"
             >
               Professional Career
             </Link>
@@ -109,8 +113,8 @@ const Header = () => {
             }}
           >
             <Link
-              to="mailto:yalejandro9@gmail.com"
-              className="text-sm font-semibold leading-6 text-body"
+              to="mailto:espinarmora@gmail.com"
+              className="text-sm font-semibold leading-6 text-body hover:text-primary"
             >
               Contact
             </Link>
@@ -146,7 +150,11 @@ const Header = () => {
           <div className="flex items-center justify-between">
             <Link to="/" className="-m-1.5 p-1.5">
               <span className="sr-only">María Espinar Mora</span>
-              <Logo className="h-10 w-10 stroke-primary stroke-2 lg:h-20 lg:w-20" />
+              <img
+                src={logo}
+                alt="María Espinar Mora logo"
+                className="h-10 w-10 lg:h-20 lg:w-20"
+              />
             </Link>
             <button
               type="button"
@@ -162,19 +170,19 @@ const Header = () => {
               <div className="space-y-2 py-6">
                 <Link
                   to="/"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-body hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-body hover:text-primary"
                 >
                   Home
                 </Link>
                 <Link
                   to="/career"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-body hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-body hover:text-primary"
                 >
                   Professional Career
                 </Link>
                 <Link
                   to="/"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-body hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-body hover:text-primary"
                 >
                   Contact
                 </Link>
