@@ -1235,10 +1235,6 @@ video {
   background-color: rgb(197 161 0 / var(--tw-bg-opacity, 1));
 }
 
-.hover\:fill-primary:hover {
-  fill: #C5A100;
-}
-
 .hover\:fill-over:hover {
   fill: #C5A100;
 }
@@ -1251,16 +1247,6 @@ video {
 .hover\:text-over:hover {
   --tw-text-opacity: 1;
   color: rgb(197 161 0 / var(--tw-text-opacity, 1));
-}
-
-.hover\:text-primary:hover {
-  --tw-text-opacity: 1;
-  color: rgb(197 161 0 / var(--tw-text-opacity, 1));
-}
-
-.hover\:text-secondary:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 215 0 / var(--tw-text-opacity, 1));
 }
 
 .hover\:shadow:hover {
