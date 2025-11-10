@@ -77,7 +77,7 @@ const Header = () => {
               transition: { delay: 0.1, duration: 0.5 },
             }}
           >
-            <Link to="/" className="text-sm font-semibold leading-6 text-body hover:text-primary">
+            <Link to="/" className="text-sm font-semibold leading-6 text-body hover:text-over">
               Inicio
             </Link>
           </motion.div>
@@ -95,7 +95,7 @@ const Header = () => {
           >
             <Link
               to="/career"
-              className="text-sm font-semibold leading-6 text-body hover:text-primary"
+              className="text-sm font-semibold leading-6 text-body hover:text-over"
             >
               Carrera Profesional
             </Link>
@@ -114,7 +114,7 @@ const Header = () => {
           >
             <Link
               to="mailto:espinarmora@gmail.com"
-              className="text-sm font-semibold leading-6 text-body hover:text-primary"
+              className="text-sm font-semibold leading-6 text-body hover:text-over"
             >
               Contacto
             </Link>
@@ -170,19 +170,19 @@ const Header = () => {
               <div className="space-y-2 py-6">
                 <Link
                   to="/"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-body hover:text-primary"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-body hover:text-over"
                 >
                   Inicio
                 </Link>
                 <Link
                   to="/career"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-body hover:text-primary"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-body hover:text-over"
                 >
                   Carrera Profesional
                 </Link>
                 <Link
                   to="/"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-body hover:text-primary"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-body hover:text-over"
                 >
                   Contacto
                 </Link>

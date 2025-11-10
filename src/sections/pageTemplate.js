@@ -26,7 +26,7 @@ const PageTemplate = (props) => {
             rel="noreferrer"
             className="mb-5 h-8 w-8 cursor-pointer"
           >
-            <FaLinkedin className="h-full w-full fill-body hover:fill-primary" />
+            <FaLinkedin className="h-full w-full fill-body hover:fill-over" />
           </a>
           <div className="h-[60%] w-px grow bg-body"></div>
         </motion.div>
@@ -40,7 +40,7 @@ const PageTemplate = (props) => {
           className="absolute bottom-0 right-5 hidden h-72 w-10 flex-col items-center justify-between xl:flex 2xl:right-10"
         >
           <a
-            className="rotate-90 cursor-pointer font-mono text-sm text-body hover:text-primary"
+            className="rotate-90 cursor-pointer font-mono text-sm text-body hover:text-over"
             href="mailto:espinarmora@gmail.com"
           >
             espinarmora@gmail.com

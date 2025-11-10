@@ -22,7 +22,7 @@ const ProgressBar = ({ progress }) => {
       <div
         className="absolute h-3 w-0 rounded-lg bg-primary backdrop-blur-md duration-[2s] transition-all"
       ></div>
-      <div className="z-10 h-3 w-full rounded-lg border border-white border-opacity-30 bg-white bg-opacity-10"></div>
+      <div className="z-10 h-3 w-full rounded-lg border border-black border-opacity-30 bg-black bg-opacity-10"></div>
     </div>
   );
 };

@@ -25,43 +25,37 @@ const technologiesType = {
   mobile: "Mobile",
 };
 
+const StyledText = ({ text }) => {
+  return <span className="h-6 w-6 text-primary font-bold text-2xl">{text}</span>;
+}
+
 const technologiesData = [
 
   // Frontend
 
   {
-    name: "JavaScript",
     type: technologiesType.frontend,
-    icon: <SiJavascript className="h-6 w-6 fill-body" />,
-    url: "https://developer.mozilla.org/es/docs/Web/JavaScript",
+    icon: <StyledText text="Proactividad" />,
     progress: 100,
   },
   {
-    name: "TypeScript",
     type: technologiesType.frontend,
-    icon: <SiTypescript className="h-6 w-6 fill-body" />,
-    url: "https://www.typescriptlang.org",
+    icon: <StyledText text="Proactividad" />,
     progress: 100,
   },
   {
-    name: "React",
     type: technologiesType.frontend,
-    icon: <FaReact className="h-6 w-6 fill-body" />,
-    url: "https://es.react.dev",
+    icon: <StyledText text="Proactividad" />,
     progress: 100,
   },
   {
-    name: "TailwindCSS",
     type: technologiesType.frontend,
-    icon: <SiTailwindcss className="h-6 w-6 fill-body" />,
-    url: "https://tailwindcss.com",
+    icon: <StyledText text="Proactividad" />,
     progress: 100,
   },
   {
-    name: "Apollo GraphQL",
     type: technologiesType.frontend,
-    icon: <SiApollographql className="h-6 w-6 fill-body" />,
-    url: "https://www.apollographql.com/",
+    icon: <StyledText text="Proactividad" />,
     progress: 70,
   },
   // {
@@ -75,93 +69,69 @@ const technologiesData = [
   // Backend
 
   {
-    name: "Python",
     type: technologiesType.backend,
-    icon: <FaPython className="h-6 w-6 fill-body" />,
-    url: "https://www.python.org",
+    icon: <StyledText text="Proactividad" />,
     progress: 90,
   },
   {
-    name: "GraphQL",
     type: technologiesType.backend,
-    icon: <GrGraphQl className="h-6 w-6 fill-body" />,
-    url: "https://graphql.org",
+    icon: <StyledText text="Proactividad" />,
     progress: 85,
   },
   {
-    name: "PostgreSQL",
     type: technologiesType.backend,
-    icon: <SiPostgresql className="h-6 w-6 fill-body" />,
-    url: "https://www.postgresql.org",
+    icon: <StyledText text="Proactividad" />,
     progress: 70,
   },
   {
-    name: "Django",
     type: technologiesType.backend,
-    icon: <SiDjango className="h-6 w-6 fill-body" />,
-    url: "https://www.djangoproject.com",
+    icon: <StyledText text="Proactividad" />,
     progress: 75,
   },
   {
-    name: "Spring Boot",
     type: technologiesType.backend,
-    icon: <SiSpringboot className="h-6 w-6 fill-body" />,
-    url: "https://spring.io",
+    icon: <StyledText text="Proactividad" />,
     progress: 75,
   },
   {
-    name: "Swagger",
     type: technologiesType.backend,
-    icon: <SiSwagger className="h-6 w-6 fill-body" />,
-    url: "https://swagger.io",
+    icon: <StyledText text="Proactividad" />,
     progress: 60,
   },
 
   // Cloud
 
   {
-    name: "Google Cloud",
     type: technologiesType.cloud,
-    icon: <SiGooglecloud className="h-6 w-6 fill-body" />,
-    url: "https://cloud.google.com",
+    icon: <StyledText text="Proactividad" />,
     progress: 60,
   },
   {
-    name: "Docker",
     type: technologiesType.cloud,
-    icon: <SiDocker className="h-6 w-6 fill-body" />,
-    url: "https://www.docker.com",
+    icon: <StyledText text="Proactividad" />,
     progress: 80,
   },
   {
-    name: "Kubernetes",
     type: technologiesType.cloud,
-    icon: <SiKubernetes className="h-6 w-6 fill-body" />,
-    url: "https://kubernetes.io",
+    icon: <StyledText text="Proactividad" />,
     progress: 60,
   },
   {
-    name: "Cloudflare",
     type: technologiesType.cloud,
-    icon: <SiCloudflare className="h-6 w-6 fill-body" />,
-    url: "https://www.cloudflare.com",
+    icon: <StyledText text="Proactividad" />,
     progress: 60,
   },
   {
-    name: "Linux",
     type: technologiesType.cloud,
-    icon: <SiLinux className="h-6 w-6 fill-body" />,
-    url: "https://www.linux.org",
+    icon: <StyledText text="Proactividad" />,
     progress: 80,
   },
 
   // Mobile
 
   {
-    name: "Flutter",
     type: technologiesType.mobile,
-    icon: <RiFlutterFill className="h-6 w-6 fill-body" />,
-    url: "https://flutter.dev/",
+    icon: <StyledText text="Proactividad" />,
     progress: 80,
   },
 ];
