@@ -1,22 +1,4 @@
-import { RiFlutterFill } from "react-icons/ri";
-import { GrGraphQl } from "react-icons/gr";
-import {
-  SiPostgresql,
-  SiDjango,
-  SiTailwindcss,
-  SiJavascript,
-  SiJinja,
-  SiGooglecloud,
-  SiDocker,
-  SiKubernetes,
-  SiCloudflare,
-  SiLinux,
-  SiSpringboot,
-  SiApollographql,
-  SiSwagger,
-  SiTypescript,
-} from "react-icons/si";
-import { FaPython, FaReact } from "react-icons/fa";
+// Imports removed: unused icon components caused build to fail (no-unused-vars).
 
 const technologiesType = {
   frontend: "Frontend",

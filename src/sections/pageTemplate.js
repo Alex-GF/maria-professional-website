@@ -1,5 +1,5 @@
 import Header from "./header";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const PageTemplate = (props) => {

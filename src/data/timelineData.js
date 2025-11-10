@@ -1,5 +1,4 @@
 import { MdWork } from "react-icons/md";
-import { IoNewspaper } from "react-icons/io5";
 import { FaGraduationCap, FaAward } from "react-icons/fa";
 import {theme} from "../static/theme/theme";
 
@@ -18,11 +17,7 @@ const awardIconStyle = {
     boxShadow:
       `0 0 0 4px ${theme.colors.primary},inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,0,.05)`,
   };
-const publishIconStyle = {
-    background: `${theme.colors.iconsBackground}`,
-    boxShadow:
-      `0 0 0 4px ${theme.colors.primary},inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,0,.05)`,
-  };
+// publishIconStyle removed because it wasn't used (avoids no-unused-vars lint error).
 
 const timelineData = [
   {
