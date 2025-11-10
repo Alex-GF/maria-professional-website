@@ -94,7 +94,7 @@ const Skills = () => {
 
         {/* Imagen */}
         <img
-          src={require("../../static/images/profile-pic.png")}
+          src={require("../../static/images/profile-pic.webp")}
           alt="María Espinar Mora"
           className="absolute bottom-0 left-2/4 h-full w-2/3 -translate-x-2/4 lg:w-1/4"
         />
