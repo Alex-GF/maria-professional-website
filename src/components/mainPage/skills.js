@@ -69,10 +69,10 @@ const Skills = () => {
   return (
     <SnapChild desktop>
       <div className="relative h-full w-full">
-        {/* About Me */}
+        {/* Sobre mí */}
 
         <div className="absolute left-[10%] top-[12.5%] flex h-3/4 w-[30%] flex-col">
-          <h3 className="font-mono text-4xl text-primary">About me</h3>
+          <h3 className="font-mono text-4xl text-primary">Sobre mí</h3>
           <div className="mb-10 h-px w-full bg-primary"></div>
           <div className="h-full w-full">
             <div className="about-me-clip-path"></div>

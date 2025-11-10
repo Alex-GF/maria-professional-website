@@ -25,7 +25,7 @@ const AboutMeMobile = () => {
     <SnapChild mobile>
       <div className="flex md:flex-row flex-col-reverse h-full w-full items-center justify-center">
         <div className="flex h-2/6 md:h-3/4 md:w-2/4 w-3/4 flex-col items-start justify-center">
-          <h3 className="font-mono text-4xl text-primary md:block hidden">1. About me</h3>
+          <h3 className="font-mono text-4xl text-primary md:block hidden">1. Sobre mí</h3>
           <div className="h-px w-full bg-primary mb-10 md:block hidden"></div>
           <p className="font-mono text-body text-justify sm:text-md text-xs sm:pb-0 pb-20">
           I am a dedicated professional who thrives in team environments, thanks to my problem-solving skills, 

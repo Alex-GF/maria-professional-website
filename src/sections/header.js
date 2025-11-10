@@ -78,7 +78,7 @@ const Header = () => {
             }}
           >
             <Link to="/" className="text-sm font-semibold leading-6 text-body hover:text-primary">
-              Home
+              Inicio
             </Link>
           </motion.div>
           <motion.div
@@ -97,7 +97,7 @@ const Header = () => {
               to="/career"
               className="text-sm font-semibold leading-6 text-body hover:text-primary"
             >
-              Professional Career
+              Carrera Profesional
             </Link>
           </motion.div>
           <motion.div
@@ -116,7 +116,7 @@ const Header = () => {
               to="mailto:espinarmora@gmail.com"
               className="text-sm font-semibold leading-6 text-body hover:text-primary"
             >
-              Contact
+              Contacto
             </Link>
           </motion.div>
         </div>
@@ -135,7 +135,7 @@ const Header = () => {
             className="cursor-pointer rounded-lg border-2 border-primary px-3 py-2 text-primary transition-all hover:bg-primary hover:text-background1 hover:shadow hover:shadow-primary"
             onClick={() => window.open(CV)}
           >
-            Resume
+            Currículum
           </motion.div>
         </div>
       </nav>
@@ -172,19 +172,19 @@ const Header = () => {
                   to="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-body hover:text-primary"
                 >
-                  Home
+                  Inicio
                 </Link>
                 <Link
                   to="/career"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-body hover:text-primary"
                 >
-                  Professional Career
+                  Carrera Profesional
                 </Link>
                 <Link
                   to="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-body hover:text-primary"
                 >
-                  Contact
+                  Contacto
                 </Link>
               </div>
               <div className="py-6">
@@ -192,7 +192,7 @@ const Header = () => {
                   className="hover:text-bakground1 cursor-pointer rounded-lg border-2 border-primary px-3 py-2 text-primary transition-all hover:bg-primary hover:text-background1 hover:shadow hover:shadow-primary"
                   onClick={() => window.open(CV)}
                 >
-                  Resume
+                  Currículum
                 </div>
               </div>
             </div>

@@ -29,7 +29,7 @@ const Hero = () => {
             }}
             className="mb-6 px-5 text-2xl text-secondary fold:text-3xl"
           >
-            Hi, I am
+            ¡Hola! Soy
           </motion.h2>
           <motion.h1
             initial={
