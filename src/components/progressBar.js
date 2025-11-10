@@ -1,5 +1,5 @@
 import "../static/css/progressBar.css";
-import { motion, useInView } from "framer-motion";
+import { useInView } from "framer-motion";
 import { useEffect, useRef } from "react";
 
 const ProgressBar = ({ progress }) => {

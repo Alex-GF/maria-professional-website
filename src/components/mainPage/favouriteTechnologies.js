@@ -5,7 +5,6 @@ import {
 } from "../../data/technologiesData";
 import { useEffect, useState, useRef } from "react";
 import SkillProgressBar from "./skillProgressBar";
-import { useInView } from "framer-motion";
 
 const FavouriteTechnologies = () => {
   const [frontendTechnologies, setFrontendTechnologies] = useState([]);

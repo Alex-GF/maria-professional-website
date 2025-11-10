@@ -35,7 +35,7 @@ const AboutMeMobile = () => {
           </p>
         </div>
         <div className={`sm:h-3/4 md:grow-0 md:w-1/3 sm:w-2/4 w-3/4 ${getBrowserInfo().includes("Safari") ? 'h-[60%]' : 'h-3/4'} border-b-2 border-b-primary`}>
-          <img src={require('../../static/images/profile-pic.webp')} className="w-full h-full"></img>
+          <img src={require('../../static/images/profile-pic.webp')} className="w-full h-full" alt="Foto de perfil"/>
         </div>
       </div>
     </SnapChild>
