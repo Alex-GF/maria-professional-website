@@ -9,8 +9,6 @@ import SkillProgressBar from "./skillProgressBar";
 const Skills = () => {
   const [frontendTechnologies, setFrontendTechnologies] = useState([]);
   const [backendTechnologies, setBackendTechnologies] = useState([]);
-  const [cloudTechnologies, setCloudTechnologies] = useState([]);
-  const [mobileTechnologies, setMobileTechnologies] = useState([]);
   const [type, setType] = useState(technologiesType.frontend);
   const [firstLoad, setFirstLoad] = useState(false);
 
@@ -31,39 +29,21 @@ const Skills = () => {
         (technology) => technology.type === technologiesType.backend
       )
     );
-    setCloudTechnologies(
-      technologiesData.filter(
-        (technology) => technology.type === technologiesType.cloud
-      )
-    );
-    setMobileTechnologies(
-      technologiesData.filter(
-        (technology) => technology.type === technologiesType.mobile
-      )
-    );
   }, []);
 
   useEffect(() => {
     if (firstLoad) {
-      if (type === "Frontend") {
+      if (type === "Herramientas") {
         frontTechRef.current.scrollIntoView({ behavior: "smooth" });
-        tabBar.current.style.transform = "translateX(-210%)";
+        tabBar.current.style.transform = "translateX(-120%)";
       }
-      if (type === "Backend") {
+      if (type === "Idiomas") {
         backTechRef.current.scrollIntoView({ behavior: "smooth" });
-        tabBar.current.style.transform = "translateX(-55%)";
-      }
-      if (type === "Cloud") {
-        cloudTechRef.current.scrollIntoView({ behavior: "smooth" });
-        tabBar.current.style.transform = "translateX(85%)";
-      }
-      if (type === "Mobile") {
-        mobileTechRef.current.scrollIntoView({ behavior: "smooth" });
-        tabBar.current.style.transform = "translateX(222%)";
+        tabBar.current.style.transform = "translateX(155%)";
       }
     } else {
       setFirstLoad(true);
-      tabBar.current.style.transform = "translateX(-210%)";
+      tabBar.current.style.transform = "translateX(-120%)";
     }
   }, [type]);
   return (
@@ -99,51 +79,27 @@ const Skills = () => {
           <ul className="mt-5 flex w-full items-center justify-evenly">
             <li
               className={`cursor-pointer font-mono font-extrabold hover:text-over ${
-                type === "Frontend" ? "text-primary" : "text-body"
+                type === "Herramientas" ? "text-primary" : "text-body"
               }`}
               onClick={() => {
-                if (type !== "Frontend") {
-                  setType("Frontend");
+                if (type !== "Herramientas") {
+                  setType("Herramientas");
                 }
               }}
             >
-              Frontend
+              Herramientas
             </li>
             <li
               className={`cursor-pointer font-mono font-extrabold hover:text-over ${
-                type === "Backend" ? "text-primary" : "text-body"
+                type === "Idiomas" ? "text-primary" : "text-body"
               }`}
               onClick={() => {
-                if (type !== "Backend") {
-                  setType("Backend");
+                if (type !== "Idiomas") {
+                  setType("Idiomas");
                 }
               }}
             >
-              Backend
-            </li>
-            <li
-              className={`cursor-pointer font-mono font-extrabold hover:text-over ${
-                type === "Cloud" ? "text-primary" : "text-body"
-              }`}
-              onClick={() => {
-                if (type !== "Cloud") {
-                  setType("Cloud");
-                }
-              }}
-            >
-              Cloud
-            </li>
-            <li
-              className={`cursor-pointer font-mono font-extrabold hover:text-over ${
-                type === "Mobile" ? "text-primary" : "text-body"
-              }`}
-              onClick={() => {
-                if (type !== "Mobile") {
-                  setType("Mobile");
-                }
-              }}
-            >
-              Mobile
+              Idiomas
             </li>
           </ul>
           <div
@@ -164,22 +120,6 @@ const Skills = () => {
               ref={backTechRef}
             >
               {backendTechnologies.map((technology, index) => {
-                return <SkillProgressBar technology={technology} key={index} />;
-              })}
-            </div>
-            <div
-              className="mt-8 flex h-full w-full flex-shrink-0 snap-start snap-always flex-col items-center justify-start"
-              ref={cloudTechRef}
-            >
-              {cloudTechnologies.map((technology, index) => {
-                return <SkillProgressBar technology={technology} key={index} />;
-              })}
-            </div>
-            <div
-              className="mt-8 flex h-full w-full flex-shrink-0 snap-start snap-always flex-col items-center justify-start"
-              ref={mobileTechRef}
-            >
-              {mobileTechnologies.map((technology, index) => {
                 return <SkillProgressBar technology={technology} key={index} />;
               })}
             </div>
