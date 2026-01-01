@@ -40,7 +40,7 @@ const PageTemplate = (props) => {
           className="absolute bottom-0 right-5 hidden h-72 w-10 flex-col items-center justify-between xl:flex 2xl:right-10"
         >
           <a
-            className="rotate-90 cursor-pointer font-mono text-sm text-body hover:text-over"
+            className="rotate-90 cursor-pointer font-custom text-sm text-body hover:text-over"
             href="mailto:espinarmora@gmail.com"
           >
             espinarmora@gmail.com

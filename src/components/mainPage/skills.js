@@ -14,8 +14,6 @@ const Skills = () => {
 
   const frontTechRef = useRef();
   const backTechRef = useRef();
-  const cloudTechRef = useRef();
-  const mobileTechRef = useRef();
   const tabBar = useRef();
 
   useEffect(() => {
@@ -52,11 +50,11 @@ const Skills = () => {
         {/* Sobre mí */}
 
         <div className="absolute left-[10%] top-[12.5%] flex h-3/4 w-[30%] flex-col">
-          <h3 className="font-mono text-4xl text-primary">Sobre mí</h3>
+          <h3 className="font-custom text-4xl text-primary">Sobre mí</h3>
           <div className="mb-10 h-px w-full bg-primary"></div>
           <div className="h-full w-full">
             <div className="about-me-clip-path"></div>
-            <div className="text-justify font-mono text-body">
+            <div className="text-justify font-custom text-body text-xl">
               Soy una persona motivada y comprometida, con una gran vocación por
               la química y la organización de proyectos. Me caracterizo por ser
               una persona cercana, empática y proactiva; con una fuerte motivación
@@ -78,7 +76,7 @@ const Skills = () => {
         <div className="absolute right-[7.5%] top-0 flex h-full w-1/4 flex-col items-center justify-start py-36">
           <ul className="mt-5 flex w-full items-center justify-evenly">
             <li
-              className={`cursor-pointer font-mono font-extrabold hover:text-over ${
+              className={`cursor-pointer font-custom font-extrabold hover:text-over ${
                 type === "Herramientas" ? "text-primary" : "text-body"
               }`}
               onClick={() => {
@@ -90,7 +88,7 @@ const Skills = () => {
               Herramientas
             </li>
             <li
-              className={`cursor-pointer font-mono font-extrabold hover:text-over ${
+              className={`cursor-pointer font-custom font-extrabold hover:text-over ${
                 type === "Idiomas" ? "text-primary" : "text-body"
               }`}
               onClick={() => {

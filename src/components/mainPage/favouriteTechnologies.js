@@ -14,8 +14,6 @@ const FavouriteTechnologies = () => {
 
   const frontTechRef = useRef();
   const backTechRef = useRef();
-  const cloudTechRef = useRef();
-  const mobileTechRef = useRef();
   const tabBar = useRef();
 
   useEffect(() => {
@@ -50,13 +48,13 @@ const FavouriteTechnologies = () => {
   return (
     <SnapChild mobile>
       <div className="flex w-full flex-col items-center justify-evenly">
-        <h2 className="text-center font-mono text-4xl text-primary">
+        <h2 className="text-center font-custom text-4xl text-primary">
           Mis Habilidades
         </h2>
         <div className="mt-2 h-px w-[90%] bg-primary"></div>
         <ul className="mt-5 flex w-full items-center justify-evenly">
           <li
-            className={`font-mono ${
+            className={`font-custom ${
               type === "Herramientas" ? "text-primary" : "text-body"
             } cursor-pointer`}
             onClick={() => {
@@ -68,7 +66,7 @@ const FavouriteTechnologies = () => {
             Herramientas
           </li>
           <li
-            className={`font-mono ${
+            className={`font-custom ${
               type === "Idiomas" ? "text-primary" : "text-body"
             } cursor-pointer`}
             onClick={() => {

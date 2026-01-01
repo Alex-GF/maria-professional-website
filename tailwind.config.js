@@ -22,6 +22,9 @@ module.exports = {
       'fold': '300px',
     },
     extend: {
+      fontFamily: {
+        "custom": ["Arial Rounded MT Bold", "sans-serif"]
+      },
       colors: {
         "primary": theme.colors.primary,
         "secondary": theme.colors.secondary,

@@ -28,11 +28,11 @@ const AboutMeMobile = () => {
     <SnapChild mobile>
       <div className="flex h-full w-full flex-col-reverse items-center justify-center md:flex-row">
         <div className="flex h-2/6 w-3/4 flex-col items-start justify-center md:h-3/4 md:w-2/4">
-          <h3 className="hidden font-mono text-4xl text-primary md:block">
+          <h3 className="hidden font-custom text-4xl text-primary md:block">
             1. Sobre mí
           </h3>
           <div className="mb-10 hidden h-px w-full bg-primary md:block"></div>
-          <p className="sm:text-md pb-20 text-justify font-mono text-xs text-body sm:pb-0">
+          <p className="sm:text-md pb-20 text-justify font-custom text-md text-body sm:pb-0">
             Soy una persona motivada y comprometida, con una gran vocación por
             la química y la organización de proyectos. Me caracterizo por ser
             una persona cercana, empática y proactiva; con una fuerte motivación

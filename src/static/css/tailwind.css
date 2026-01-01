@@ -1172,8 +1172,8 @@ video {
   text-align: justify;
 }
 
-.font-mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+.font-custom {
+  font-family: Arial Rounded MT Bold, sans-serif;
 }
 
 .text-2xl {
@@ -1204,6 +1204,16 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -1294,6 +1304,12 @@ video {
   -webkit-clip-path: polygon(100% 0, 75% 100%, 100% 100%);
           clip-path: polygon(100% 0, 75% 100%, 100% 100%);
   float:right;
+}
+
+@font-face {
+  font-family: 'Arial Rounded MT Bold';
+
+  src: url('../fonts/arialroundedmtbold.ttf') format('truetype');
 }
 
 .hover\:bg-primary:hover {

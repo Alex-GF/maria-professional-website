@@ -9,3 +9,8 @@
     clip-path: polygon(100% 0, 75% 100%, 100% 100%);
     float:right;
 }
+
+@font-face {
+    font-family: 'Arial Rounded MT Bold';
+    src: url('../fonts/arialroundedmtbold.ttf') format('truetype');
+}
