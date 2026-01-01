@@ -77,17 +77,11 @@ const Skills = () => {
           <div className="h-full w-full">
             <div className="about-me-clip-path"></div>
             <div className="text-justify font-mono text-body">
-              I have always been captivated by the challenge of understanding
-              systems and solving complex problems, a passion that led me to
-              pursue software engineering and explore service-oriented
-              computing. Driven by innovation and efficiency, I love to focus on
-              crafting solutions that address real-world challenges.
-              Collaboration and continuous learning shape how I work. Whether
-              leading teams, presenting research, or mentoring others, I thrive
-              in environments that value adaptability, effective communication,
-              and critical thinking. In the end, I strive to balance creativity,
-              precision, and practicality in both my professional and personal
-              life.
+              Soy una persona motivada y comprometida, con una gran vocación por
+              la química y la organización de proyectos. Me caracterizo por ser
+              una persona cercana, empática y proactiva; con una fuerte motivación
+              por el crecimiento personal y profesional. Adoro afrontar nuevos
+              retos y buscar oportunidades de mejora a diario.
             </div>
           </div>
         </div>

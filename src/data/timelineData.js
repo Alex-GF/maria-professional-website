@@ -21,18 +21,10 @@ const awardIconStyle = {
 
 const timelineData = [
   {
-    title: "Weddings & Events Planner",
-    subtitle: "Excelencya",
-    text: ["Programación, planificación y coordinación de bodas y eventos sociales."],
-    date: "2019 - presente",
-    icon: <MdWork className="fill-primary"/>,
-    iconStyle: workIconStyle,
-  },
-  {
     title: "Grado en Química",
     subtitle: "Universidad de Sevilla",
     text: ["Química"],
-    date: "2019 - 2026",
+    date: "2025",
     icon: <FaGraduationCap className="fill-primary"/>,
     iconStyle: studiesIconStyle,
   },
@@ -43,6 +35,14 @@ const timelineData = [
     date: "2025",
     icon: <FaGraduationCap className="fill-primary"/>,
     iconStyle: studiesIconStyle,
+  },
+  {
+    title: "Weddings & Events Planner",
+    subtitle: "Excelencya",
+    text: ["Programación, planificación y coordinación de bodas y eventos sociales."],
+    date: "2019 - 2025",
+    icon: <MdWork className="fill-primary"/>,
+    iconStyle: workIconStyle,
   },
   {
     title: "Bachillerato",
